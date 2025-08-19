@@ -1,0 +1,12 @@
+.main
+{
+    background-color: aliceblue;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.container
+{
+    width: 90%;
+    margin: auto;
+}

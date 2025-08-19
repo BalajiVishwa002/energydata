@@ -1,0 +1,91 @@
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+}
+.file-upload {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.table {
+  background-color: white;
+  border-radius: 0.5em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 16px;
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  overflow: scroll;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+tr {
+  border-bottom: 1px solid #eef0f3;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+tbody tr:hover {
+  background-color: #f1f3f7;
+  transform: scale(1.009);
+}
+
+thead th {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: #f9fafb;
+  text-align: start;
+  padding: 15px;
+}
+tbody tr td {
+  padding: 12px 15px;
+}
+
+
+.values
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.values .val-box
+{
+    background-color: #fff;
+    flex: 1;
+    padding: 16px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.values .val-box:nth-child(1) .icon-box{
+    background-color: #b607d1;
+}
+.values .val-box:nth-child(2) .icon-box{
+    background-color: #0668be;
+}
+.values .val-box:nth-child(3) .icon-box{
+    background-color: #fb1791;
+}
+.values .val-box:nth-child(4) .icon-box{
+    background-color: #2bdde3;
+}
