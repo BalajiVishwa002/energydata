@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import { Doughnut } from "react-chartjs-2";
-// chartConfig.js
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -8,7 +7,7 @@ import {
   Title,
   Tooltip,
   Legend,
-  ArcElement, // 👈 needed for donut/pie
+  ArcElement,
 } from "chart.js";
 
 ChartJS.register(
